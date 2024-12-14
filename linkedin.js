@@ -12,7 +12,7 @@ const PORT = process.env.LINKEDINPORT
 
 // Middleware
 const corsOptions = {
-    origin: ["http://localhost:3000"], // Replace with your frontend URL
+    origin: ["https://jobscanner-pb9s.onrender.com"], // Replace with your frontend URL
     methods: ["GET", "POST"],
     credentials: true
 };
